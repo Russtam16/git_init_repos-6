@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Челлендж 30 000 отжиманий</title>
+    <link rel="stylesheet" href="./topstyle.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="header-container">
+            <h1>💪🔥 Челлендж: 30 000 Отжиманий 🔥💪</h1>
+            <p>Дневник прогрессивных тренировок на 180 дней</p>
+        </div>
+    </header>
+
+    <!-- Основной сеточный контейнер -->
+    <div class="layout-wrapper">
+
+        <!-- Боковая колонка -->
+        <aside>
+            <h3>🧘 Обязательная разминка</h3>
+            <ul>
+                <li>Вращение кистей и локтей — 30 сек.</li>
+                <li>Круговые движения плечами — 40 сек.</li>
+                <li>Отжимания от стены — 10–15 раз.</li>
+                <li>1 разминочный подход от пола.</li>
+            </ul>
+
+            <div class="aside-stat">
+                <h4>🎯 Цель на сегодня</h4>
+                <p class="stat-number">85</p>
+                <p>повторений</p>
+            </div>
+        </aside>
+
+        <!-- Главный контент страницы -->
+        <main>
+
+            <!-- Баннер / Фотография по теме -->
+            <section class="media-section">
+                <img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=1000&q=80" alt="Мужчина делает отжимания от пола" class="hero-image">
+            </section>
+
+            <!-- Форма для внесения выполненных отжиманий -->
+            <section class="card">
+                <h2>📝 Внести результат тренировки</h2>
+                <form action="#" method="post" class="tracker-form">
+                    
+                    <div class="form-group">
+                        <label for="date">Дата:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="count">Выполнено отжиманий:</label>
+                        <input type="number" id="count" name="count" min="1" placeholder="Например: 25" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="timeofday">Время суток:</label>
+                        <select id="timeofday" name="timeofday">
+                            <option value="morning">Утро</option>
+                            <option value="day">День</option>
+                            <option value="evening">Вечер</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Заметки / Самочувствие:</label>
+                        <textarea id="notes" name="notes" rows="3" placeholder="Техника хорошая, мышцы не болят..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Зафиксировать результат</button>
+                </form>
+            </section>
+
+            <!-- Таблица этапов -->
+            <section class="card">
+                <h2>📊 План нагрузок (Этапы)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Этап</th>
+                            <th>Дни</th>
+                            <th>Норма в день</th>
+                            <th>Главная задача</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1. Адаптация</td>
+                            <td>1–14</td>
+                            <td>82–94</td>
+                            <td>Втянуться в режим</td>
+                        </tr>
+                        <tr>
+                            <td>2. База</td>
+                            <td>15–56</td>
+                            <td>95–134</td>
+                            <td>Рост выносливости</td>
+                        </tr>
+                        <tr>
+                            <td>3. Прогресс</td>
+                            <td>57–140</td>
+                            <td>135–213</td>
+                            <td>2 тренировки в день</td>
+                        </tr>
+                        <tr>
+                            <td>4. Финал</td>
+                            <td>141–180</td>
+                            <td>214–251</td>
+                            <td>Дойти до 30 000 🎯</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>&copy; 2026 Челлендж 30 000 отжиманий. Главное — регулярность!</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<!-- git init
+git status
+git add .
+git commit -m "название комита"
+git push origin ( branch name) !-->
+<!-- git remote( проверка есть ли связь с компьютером git and github)  -->
+<!--git push ( отправляет все на гитхаб)  -->
+<!-- git branch  (создает новую ветку) -->
+<!-- git checkout ( меняет ветку) -->
+<!-- git merge ( соединяет ветки) -->
+<!-- git clone (клонирует репозиторий) -->
+<!-- git fetch (тянет данные из гитхаба) -->
+<!-- git pull (тянет данные из гитхаба) -->
+<!-- git reset (Проще говоря, она позволяет «отмотать» историю репозитория назад.) -->
+<!-- // TEST COMMIT WELL DONE
+// hello people welcome my test code
+// new blank -->

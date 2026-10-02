@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and semantic HTML</title>
+</head>
+
+<body>
+    <header></header>
+    <h2>Forms and semantic HTML</h2>
+    <form action="https://google.com/search" method="get">
+        <p>
+            <label for="search">Search Google</label>
+            <input type="text" name="q" id="search" placeholder="Input text" required>
+        </p>
+        <p>
+            <button type="Submit">Search</button>
+        </p>
+    </form>
+
+    <form>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="q" id="name" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter you password" required>
+        </p>
+       <select>
+        <option>Выберете цвет в конце обязательно</option>
+       </select>
+        <button type="submit">Submit</button>
+        <button type="Keks">Keks</button>
+    </form>
+
+    <form>
+        <div>Pick a color</div>
+        <p>
+            <input type="radio" name="options" id="blue" value="blue">
+            <label for="blue">Blue</label>
+        </p>
+        <p>
+            <input type="radio" name="options" id="red" value="red">
+            <label for="red">Red</label>
+        </p>
+    </form>
+
+</body>
+
+</html> 
